@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebTrip - Discover the Internet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌐 WebTrip</h1>
+    <p>Discover what happens when you visit a website!</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Your journey starts here</h2>
+      <p>Enter a website address and explore how the internet works behind the scenes.</p>
+
+      <input id="website" type="text"
+        placeholder="Example: www.example.com">
+
+      <button id="startButton">Start my journey</button>
+    </section>
+
+    <section class="journey">
+      <h2>Your website journey</h2>
+      <div id="progress">Step 0 of 4</div>
+
+      <div class="stage">
+        <h3 id="stageTitle">Ready to explore?</h3>
+        <p id="stageText">
+          Enter a website address above to begin.
+        </p>
+      </div>
+
+      <button id="nextButton" disabled>Next step →</button>
+      <button id="resetButton">Start again</button>
+    </section>
+
+    <section class="facts">
+      <h2>Did you know?</h2>
+      <p>DNS is often described as the internet's phonebook
+        because it helps translate website names into IP addresses.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>WebTrip | Learn. Explore. Understand.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
